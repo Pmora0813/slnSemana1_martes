@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    public class Class1
+    class Class2
     {
-
-        public double Hola(int x)
+        public void test()
         {
-            return 0;
-        }
+            Class1 c = new Class1();
 
-        public int edad { get; set; }
+            c.edad = 3;
+            int x = c.edad;
+        }
     }
 }
